@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/rowStockSymbolTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rowStockPriceTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="6dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/rowStockChangeTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/rowRemoveButton"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="Del" />
+
+</LinearLayout>
